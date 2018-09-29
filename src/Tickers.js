@@ -14,9 +14,11 @@ class Tickers extends Component {
 
     componentDidMount() {
         this.fetchCryptocurrencyData();
-        this.interval = setInterval(() => this.fetchCryptocurrencyData(), 60 * 1000);
+        this.interval = setInterval(() => this.fetchCryptocurrencyData(), 60 * 100);
     }
-
+    componentWillUnmount() {
+        clearInterval(this.interval);
+    }
     fetchCryptocurrencyData() {
         axios.get("https://api.coinmarketcap.com/v1/ticker/")
             .then(response => {
