@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fa95bf7-a31b-4e11-90ee-25a117767270" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/crypto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tickers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tickers.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -175,12 +180,12 @@
       <option name="presentableId" value="Default" />
       <updated>1538203324082</updated>
       <workItem from="1538203326666" duration="1453000" />
-      <workItem from="1538221880321" duration="1459000" />
+      <workItem from="1538221880321" duration="1961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2912000" />
+    <option name="totallyTimeSpent" value="3414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
